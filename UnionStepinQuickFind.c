@@ -14,8 +14,8 @@ main()
     interpreting the pair p q as "a connection of the object p with the object q" and displaying the pairs that represent those objects that are not yet connected */
     while (scanf("%d %d\n", &p, &q) 
       {
-        /* the program keeps the table id so that it includes one entry for each object and ensure that id[p] and id[q] are equal 
-        if and only if p and q are connected  */
+        /* by changing the code inside the body of the while loop we attain same results as the quick find algorithm with fewer computations for the union calculation
+          but with the cost of more calculations for the finding process  */
         for (i = p; i != id[i]; i = id[i]) ;
         for (j = q; j != id[j]; j = id[j]) ;
         if (i == j) continue;
