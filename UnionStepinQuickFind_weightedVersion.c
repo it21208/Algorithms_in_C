@@ -28,8 +28,6 @@ main()
       printf(" %d %d\n", p, q);
     } 
 }
-
-
 /* the above algorithm follows a maximum of 2logN indicators to identify if 2 out of the N objects are connected 
     when combining a domain of i nodes with another domain consisting of j nodes and the following condition i <= j applies
     we increase by 1 the number of indexes that must be followed in the smaller domain which now belong in a domain with size i + j
