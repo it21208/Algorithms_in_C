@@ -25,3 +25,11 @@ C<sub>N</sub> = C<sub>N-1</sub> + N  <br />
 <hr /> 
 
 Most of the algorithms contain a primary parameter symbolized with N which affects primarily the execution time.
+Algorithms usually have execution times which are analogous to the following equations:
+1. 1 Most commands of most programs are executed once or at most very few times. If all commands of a program have this capacity we consider that the execution time of the program is constant.
+2. logN
+3. N
+4. NlogN
+5. N<sup>2</sup>
+6. N<sup>3</sup>
+7. 2<sup>N</sup>
