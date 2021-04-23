@@ -12,10 +12,12 @@ main()
     }
     while (scanf("%d %d\n", &p, &q) == 2)
     {
+      /* By changing the for loops with the indicated lines of code below we decrease the length of each path we have to cross by half. 
+         The end result of this change is that after a long sequence of operations the trees end up almost flat. */
       for (i = p; i != id[i]; i = id[i])
-        id[i] = id[id[i]];
+        id[i] = id[id[i]]; /* 1 */
       for (j = q; j != id[j]; j = id[j])
-        id[j] = id[id[j]]; 
+        id[j] = id[id[j]]; /* 2 */
       if (i == j) continue;
       if (sz[i] < sz[j])
         { 
