@@ -23,3 +23,5 @@ C<sub>N</sub> = C<sub>N-1</sub> + N  <br />
           &nbsp; &nbsp;    = N(N+1)/2
 
 <hr /> 
+
+Most of the algorithms contain a primary parameter symbolized with N which affects primarily the execution time.
