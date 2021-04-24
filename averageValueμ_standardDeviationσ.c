@@ -14,7 +14,7 @@ Number randNum()
 
 main(int argc, char *argv[])
 {
-  int i, N = atoi(argv[1]);
+  int i, N = atoi(argv[1]);   /* atoi is a function in the C programming language that converts a string into an integer numerical representation */
   float m1 = 0.0, m2 = 0.0;
   Number x;
   for (i = 0; i < N; i++)
