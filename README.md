@@ -1,4 +1,4 @@
-#### Algorithms_in_C
+#### Algorithms in C
 ##### A bunch of useful pieces of code written in C to address algorithmic issues. 
 
 
