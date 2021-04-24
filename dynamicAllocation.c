@@ -7,5 +7,6 @@ main(int argc, char *argv[])
   if (a == NULL)
   {
     printf("Insufficient memory.\n");
+    return;
   }
  ...
