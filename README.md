@@ -27,9 +27,9 @@ C<sub>N</sub> = C<sub>N-1</sub> + N  <br />
 Most of the algorithms contain a primary parameter symbolized with N which affects primarily the execution time.
 Algorithms usually have execution times which are analogous to the following equations:
 1. 1 Most commands of most programs are executed once or at most very few times. If all commands of a program have this capacity we consider that the execution time of the program is constant.
-2. logN
-3. N
-4. NlogN
-5. N<sup>2</sup>
+2. logN When the execution time of a program is logarithmic the execution slows down a bit since the N increases. This execution times is presented often in programs that solve a large problem by breaking it into a sequence of smaller problems that way reducing the problem size in each step by a fixed percentage.  
+3. N When the execution time of a program is linear what applies in general is that in each input element a small part of the complete process is done.
+4. NlogN This execution time is presented when the algorithms for solving  a problem differentiate the problem into smaller sub-problems, solving it independently and afterward combining the independent solutions. e.g. when N = 1000000 NlogN is 20000000, but when N doubles the execution time NlogN more than doubles (but is not far from the value it would have if it was doubled this is why is called linearithmic).  
+5. N<sup>2</sup> When the execution time is quadratic, this specific algorithm is practically useful only in situations of reletively small programs. The quadratic execution times are usually presented in algorithms that process all data pairs (potentially in double nested loop) When N is 1000 then the execution time is 1000000 (quadruples).
 6. N<sup>3</sup>
 7. 2<sup>N</sup>
