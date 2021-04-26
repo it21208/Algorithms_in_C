@@ -1,5 +1,5 @@
 #### Algorithms in C
-##### A bunch of useful pieces of code written in C to address algorithmic issues. 
+##### Useful pieces of code written in C to address algorithmic issues. 
 
 
 3 Reasons why we should perform mathematical analysis of algorithms:
